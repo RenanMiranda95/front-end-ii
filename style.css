@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body
+{
+    background-image: url("/imagens/bg.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipe
+{
+    color: white;
+    font-size: 15px;
+}
+.container
+{
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px #1d1d1d;
+    text-align: center;
+    margin-top: 15px;
+}
+
+h3
+{
+    font-size: 3em;
+}
+
+form
+{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+form label
+{
+    display: block;
+}
+
+.container input, button
+{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: solid 1px #0052ce;
+} 
+
+.container button
+{
+    color: white;
+    background-color: #1b6eeb;
+    cursor: pointer;
+    transition:all 1s;
+}
+
+.container button:hover
+{
+    background-color: rgb(0, 255, 85);
+}
+
+.secaoAvatar
+{
+    width: 90vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.boxAvatar
+{
+    width: 350px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.329);
+    color: white;
+    font-size: 0.7em;
+    text-align: center;
+    border-radius: 30px;
+    margin: 20px;
+    box-shadow: 0.5px 0.5px 15px #00000057;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secaoAvatar img
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.btFechar
+{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 103, 103, 0);
+    border: none;
+    border-radius: 50%;
+    background-image: url("/imagens/btfechar.png");
+    background-size: cover;
+    cursor: pointer;
+    position:relative;
+    margin-left: 80%;
+    margin-top: 5px;
+}
+
+p
+{
+    font-size: 2em;
+}

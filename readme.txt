@@ -1,4 +1,4 @@
-Aplicação desenvolvida por Renan Miranda
+Aplicação desenvolvida por Renan Miranda, João Sousa e Wesley Tessmann
 
 O intuito dessa aplicação é coletar os dados: nome, descrição e foto(na qual deve ser inserida sua URL) e a partir disso criar um card.
 Após a coleta desses dados o usuário deve acionar o botão "Criar Avatar" sua funcionalidade é capturar os dados nos inputs descritos e criar um card logo abaixo desse formulário,
